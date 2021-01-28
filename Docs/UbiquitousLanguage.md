@@ -14,8 +14,8 @@ Race |
 Background |
 Alignment |
 Level |
-XP |
-HP |
+XP | Experience Points
+HP | Hit Points
 Attribute |
 Modifier |
 Ability |
