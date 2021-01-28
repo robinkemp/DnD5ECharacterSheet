@@ -12,15 +12,15 @@
 
       <v-col class="mb-4">
         <h1 class="display-2 font-weight-bold mb-3">
-          Welcome to Witches Hat (Rachel is amazing!)
+          Welcome to Witches Hat 
         </h1>
-
+        <p>Step into the world of Dungeons and Dragons with our Character Sheets and Levelling Up Guides</p> 
         <p class="subheading font-weight-regular">
+          <p> </p>
           For help and collaboration with other witches,
           <br />please join our online
           <a href="javascript: alert('Hello impatient')">Discord Community</a
           >
-        </p>
       </v-col>
     </v-row>
   </v-container>
