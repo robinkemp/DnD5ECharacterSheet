@@ -19,7 +19,7 @@ XP | Experience Points
 HP | Hit Points
 Attribute |
 Modifier |
-Ability |
-Proficiency |
-Skill |
+Ability | 
+Proficiency | If a character has a proficiency in a certain skill, feature or attribute in their character sheet, when making rolls that use that skill, feature or attribute, their proficiency bonus will be added.
+Skill | Represents a specific knowledge, and an individual's level of proficiency in a skill demonstrates a focus on that aspect.
 Feature | Represents a talent or an area of expertise that gives a character special capabilities. It embodies training, experience, and abilities beyond what a class provides.
