@@ -21,6 +21,7 @@
           <br />please join our online
           <a href="javascript: alert('Hello impatient')">Discord Community</a
           >
+          <p> <span style="color:white">Rachel is awesome!</span> </p>
       </v-col>
     </v-row>
   </v-container>
