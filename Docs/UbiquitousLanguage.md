@@ -17,8 +17,8 @@ Alignment |
 Level | A milestone reached by the players throughout the campaign, typically by accruing experience points. At each level, a character will learn new skills or improve certain ability scores. The maximum level that can be reached by a player during a campaign is 20.
 XP | Experience Points
 HP | Hit Points
-Attribute |
-Modifier |
+Attribute | Refers to the six basic ability scores: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma. The points in which are used to determine the Skill modifier.
+Modifier | A number that is added to the result of a dice roll to produce a final result. The modifier is decided based on how many points you have in a certain ability score and whether you have any proficiencies.
 Ability | 
 Proficiency | If a character has a proficiency in a certain skill, feature or attribute in their character sheet, when making rolls that use that skill, feature or attribute, their proficiency bonus will be added.
 Skill | Represents a specific knowledge, and an individual's level of proficiency in a skill demonstrates a focus on that aspect.
