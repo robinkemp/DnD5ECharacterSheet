@@ -14,9 +14,16 @@
         <h1 class="display-2 font-weight-bold mb-3">
           Welcome to Witches Hat
         </h1>
-        <h2>
-          Hello, World!
-        </h2>
+        <v-expansion-panels>
+          <v-expansion-panel v-for="spell in spells" v-bind:key="spell">
+            <v-expansion-panel-header>
+              {{ spell.name }}
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              {{ spell.description }}
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+        </v-expansion-panels>
         <p class="subheading font-weight-regular">
           For help and collaboration with other witches,
           <br />please join our online
@@ -35,6 +42,11 @@ export default Vue.extend({
   name: "HelloWitches",
 
   data: () => ({
+    spells:[
+      {name:"Fire Ball", description:"The Best Spell"},
+      {name:"Frosty Blast", description:"The Second Best Spell"},
+      {name:"Thunder Wave", description:"Collateral Damage Anyone"}
+    ],
     ecosystem: [
       {
         text: "vuetify-loader",
