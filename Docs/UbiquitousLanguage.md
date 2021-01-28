@@ -8,7 +8,7 @@ Campaign  |
 Player  | 
 Character | 
 DM | Dungeon Master a.k.a. God
-NPC |
+NPC | Non-player Character. A character that is controller by the DM and acts independantly of the players. (e.g A Shopkeeper)
 Character Sheet |
 Class |
 Race |
