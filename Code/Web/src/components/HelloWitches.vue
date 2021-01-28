@@ -14,7 +14,9 @@
         <h1 class="display-2 font-weight-bold mb-3">
           Welcome to Witches Hat
         </h1>
-
+        <h2>
+          Hello, World!
+        </h2>
         <p class="subheading font-weight-regular">
           For help and collaboration with other witches,
           <br />please join our online
