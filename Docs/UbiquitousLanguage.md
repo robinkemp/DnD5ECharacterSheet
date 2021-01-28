@@ -14,7 +14,7 @@ Class |
 Race |
 Background |
 Alignment |
-Level |
+Level | A milestone reached by the players throughout the campaign, typically by accruing experience points. At each level, a character will learn new skills or improve certain ability scores. The maximum level that can be reached by a player during a campaign is 20.
 XP | Experience Points
 HP | Hit Points
 Attribute |
