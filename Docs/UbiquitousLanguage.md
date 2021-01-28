@@ -21,6 +21,7 @@ Attribute | Refers to the six basic ability scores: Strength, Dexterity, Constit
 Modifier | A number that is added to the result of a dice roll to produce a final result. The modifier is decided based on how many points you have in a certain ability score and whether you have any proficiencies.
 Ability | 
 Proficiency | If a character has a proficiency in a certain skill, feature or attribute in their character sheet, when making rolls that use that skill, feature or attribute, their proficiency bonus will be added.
+Expertise | If a character has expertise in a certain skill, feature or attribute in their character sheet, when making rolls that use that skill, feature or attribute, double their proficiency bonus will be added.
 Skill | Represents a specific knowledge, and an individual's level of proficiency in a skill demonstrates a focus on that aspect.
 Feature | Represents a talent or an area of expertise that gives a character special capabilities. It embodies training, experience, and abilities beyond what a class provides.
 Homebrew | Customised campaigns or campaign content that is not featured in the standard D&D ruleset or its expansions.
