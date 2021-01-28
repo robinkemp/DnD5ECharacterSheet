@@ -7,6 +7,7 @@ Term  | Description
 Campaign  | 
 Player  | 
 Character | 
+DM | Dungeon Master a.k.a. God
 NPC |
 Character Sheet |
 Class |
