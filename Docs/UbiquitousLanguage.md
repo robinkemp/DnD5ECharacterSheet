@@ -4,9 +4,8 @@ The taxonomy of Witches Hat
 
 Term  | Description
 ------------- | -------------
-Ability | 
+Ability | Refers to the six basic ability scores: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma. The points in which are used to determine the Skill modifier.
 Alignment | Alignment is a categorization of the ethical and moral perspective of player characters, non-player characters, and creatures.
-Attribute | Refers to the six basic ability scores: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma. The points in which are used to determine the Skill modifier.
 Background | Refers to how a character has lived and the principles that have shaped them. In some cases, backgrounds have associated features. 
 Campaign  | A continuing storyline or set of adventures, typically involving the same characters.
 Character | A continuous member of the campaign world controlled by a player.
