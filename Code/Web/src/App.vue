@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar app color="primary" dark>
       <div class="d-flex align-center">
-        I just wanna be a witch
+        I just wanna be a witch 😭
       </div>
 
       <v-spacer></v-spacer>
