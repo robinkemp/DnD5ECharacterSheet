@@ -18,22 +18,25 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWitches />
+      <router-view></router-view>
     </v-main>
+
+      <v-footer>
+        <router-link to="/">Home</router-link>
+        <v-spacer></v-spacer>
+        <router-link to="about">About</router-link>
+        <v-spacer></v-spacer>
+        <router-link to="will">Spells</router-link>
+      </v-footer>
   </v-app>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import HelloWitches from "./components/HelloWitches.vue";
 
 export default Vue.extend({
   name: "App",
-
-  components: {
-    HelloWitches
-  },
-
+  components: {},
   data: () => ({
     //
   })

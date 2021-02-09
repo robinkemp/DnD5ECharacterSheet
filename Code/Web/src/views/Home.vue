@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/witches-hat.png" />
     <HelloWitches msg="Welcome Witches" />
   </div>
 </template>
