@@ -24,6 +24,8 @@
       <v-footer>
         <router-link to="/">Home</router-link>
         <v-spacer></v-spacer>
+        <router-link to="player">Player</router-link>
+        <v-spacer></v-spacer>
         <router-link to="about">About</router-link>
         <v-spacer></v-spacer>
         <router-link to="will">Spells</router-link>
