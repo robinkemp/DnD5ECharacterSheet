@@ -9,3 +9,6 @@ You don't need to be a coding wizard to get involved, there are many aspects. Kn
 Initially I'd like to be able to manage my character sheet in a browser, mostly because I'm fed up of the three dialogs Adobe put me through just to save! I can see opportunities to push this into creating a character, levelling up a character, GM tools to be able to quickly look stuff up (passive wisdom check?), much potential I think.
 
 Hopefully we can come up with some cool stuff for us, and maybe even at some point other people will want to play with our tools.
+
+- [Getting started](https://github.com/robinkemp/WitchesHat/blob/main/Docs/GettingStarted.md "Getting started")
+- [What can I do?](https://github.com/robinkemp/WitchesHat/blob/main/Docs/WhatCanIDo.md "What can I do")

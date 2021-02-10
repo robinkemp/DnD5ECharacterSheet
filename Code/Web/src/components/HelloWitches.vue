@@ -21,7 +21,7 @@
         <p>
           For help and collaboration with other witches,
           <br />please join our online
-          <a href="javascript: alert('Hello impatient')">Discord Community</a>
+          <a href="https://discord.gg/yDR5FtFgs4">Discord Community</a>
         </p>
         <p><span style="color:white">Rachel is awesome!</span></p>
       </v-col>
