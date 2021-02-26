@@ -20,6 +20,7 @@ ProfilePicture |
 
 
 [Attributes]
+
 Strength |
 StrengthMod |
 Dexterity |
@@ -36,43 +37,26 @@ CharismaMod |
 
 [Skills]
 
--- Should these be KVPs? k: int skillName, v: bool proficient
+// Should these be KVPs? k: int skillName, v: bool proficient
 
-Acrobatics
-
-AnimalHandling
-
-Arcana
-
-Athletics
-
-Deception
-
-History
-
-Insight
-
-Intimidation
-
-Investigation
-
-Medicine
-
-Nature
-
-Perception
-
-Performance
-
-Persuasion
-
-Religion
-
-SleightOfHand
-
-Stealth
-
-Survival
+Acrobatics |
+AnimalHandling |
+Arcana |
+Athletics |
+Deception |
+History |
+Insight |
+Intimidation |
+Investigation |
+Medicine |
+Nature |
+Perception |
+Performance |
+Persuasion |
+Religion |
+SleightOfHand |
+Stealth |
+Survival |
 
 passivePerception..? 
 
