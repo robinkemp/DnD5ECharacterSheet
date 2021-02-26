@@ -65,15 +65,10 @@ passivePerception..?
 
 // Should these be KVPs? k: int savingThrow, v: bool proficient
 
-Strength
-
-Dexterity
-
-Constitution
-
-Intelligence
-
-Wisdom
-
-Charisma
+Strength |
+Dexterity |
+Constitution |
+Intelligence |
+Wisdom |
+Charisma |
 
