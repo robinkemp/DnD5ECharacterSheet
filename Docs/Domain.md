@@ -6,7 +6,6 @@
 [CharacterProfile]
 
 CharacterName |
--------------
 Class |
 Background |
 Race |
@@ -21,29 +20,18 @@ ProfilePicture |
 
 
 [Attributes]
-Strength
-
-StrengthMod
-
-Dexterity
-
-DexterityMod
-
-Constitution
-
-ConstitutionMod
-
-Intelligence
-
-IntelligenceMod
-
-Wisdom
-
-WisdomMod
-
-Charisma
-
-CharismaMod
+Strength |
+StrengthMod |
+Dexterity |
+DexterityMod |
+Constitution |
+ConstitutionMod |
+Intelligence |
+IntelligenceMod |
+Wisdom |
+WisdomMod |
+Charisma |
+CharismaMod |
 
 
 [Skills]
