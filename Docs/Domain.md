@@ -20,11 +20,12 @@ ProfilePicture |
 
 **[CharacterDetails]**
 
-Backgrouhnd | PersonalityTraits | Ideals | Bonds | Flaws | Languages | ExtraProficiencies
+Backgrouhnd | PersonalityTraits | Ideals | Bonds | Flaws | Languages | ExtraProficiencies | Treasure | TreasureDescription | 
 
 **[AlliesAndOrgs]**
 
 AllyName | Relationship | BackgroundInformation
+
 OrganisationName | Relationship | BackgroundInformation
 
 **[TraitsAndFeatures]**
@@ -96,3 +97,12 @@ Intelligence |
 Wisdom |
 Charisma |
 
+**[SpellcastingStats]**
+
+SpellCastingAbility | SpellSaveDc | SpellAttackBonus | LevelOneSpellCount | LevelTwoSpellCount | LevelThreeSpellCount | LevelFourSpellCount | LevelFiveSpellCount | LevelSixSpellCount | LevelSevenSpellCount
+
+**[PreparedMagicks]**
+
+Name | IsCantrip | EffectDescription | SpellLevel | DamageDie
+
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
