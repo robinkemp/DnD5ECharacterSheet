@@ -18,6 +18,10 @@ Skin |
 Hair |
 ProfilePicture |
 
+**[CombatStats]**
+
+ArmourClass | Initiative | Speed | HitPointsMax | HitPointsCurrent | TempHitPoints | HitDiceTotal | HitDiceCurrent | DeathSaves
+
 
 **[Attributes]**
 
