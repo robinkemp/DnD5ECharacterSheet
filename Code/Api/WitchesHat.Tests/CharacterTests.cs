@@ -1,5 +1,5 @@
 using System;
-using WitchesHat.Domain;
+using WitchesHat.Domain.Character;
 using Xunit;
 
 namespace WitchesHat.Tests

@@ -1,21 +1,27 @@
 using System;
-using System.IO;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
 using System.Collections.Generic;
-using WitchesHat.Domain;
+using WitchesHat.Domain.Character;
+using WitchesHat.Data.Repository.Character;
 
 namespace WitchesHat.Api
 {
-    public static class Player
+    public class Player
     {
+        public Player(ICharacterRepository characterRepository)
+        {
+            _characterRepository = characterRepository;
+        }
+
+        private ICharacterRepository _characterRepository;
+
         [FunctionName("GetCharacters")]
-        public static async Task<IActionResult> Run(
+        public async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
         {
@@ -26,6 +32,16 @@ namespace WitchesHat.Api
             characters.Add(Character.Create(Guid.NewGuid(), "Floats With Clouds"));
 
             return new OkObjectResult(characters);
+        }
+
+        [FunctionName("GetCharactersFromMongo")]
+        public async Task<IActionResult> GetCharactersFromMongo(
+            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
+            ILogger log)
+        {
+            log.LogInformation("GetCharactersFromMongo called");
+
+            return new OkObjectResult(await _characterRepository.Get());
         }
     }
 }

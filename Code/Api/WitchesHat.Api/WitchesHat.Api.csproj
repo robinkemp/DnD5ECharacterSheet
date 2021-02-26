@@ -2,11 +2,16 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AzureFunctionsVersion>v3</AzureFunctionsVersion>
+    <UserSecretsId>34605094-71fe-440a-b709-7e515325832f</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Functions.Extensions" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.1.0" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.7" />
+    <PackageReference Include="MongoDB.Driver" Version="2.11.6" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\WitchesHat.Data\WitchesHat.Data.csproj" />
     <ProjectReference Include="..\WitchesHat.Domain\WitchesHat.Domain.csproj" />
   </ItemGroup>
   <ItemGroup>

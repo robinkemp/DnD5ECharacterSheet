@@ -14,7 +14,7 @@ export class CharacterListProvider {
   }
 
   async fetchApi(){
-    const response = await Axios.get<Character[]>("http://localhost:7071/api/GetCharacters");
+    const response = await Axios.get<Character[]>("http://localhost:7071/api/GetCharactersFromMongo");
     this.characters.length == 0;
     if(response.data)
     {

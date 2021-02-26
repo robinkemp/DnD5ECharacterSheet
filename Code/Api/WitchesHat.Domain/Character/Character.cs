@@ -1,8 +1,9 @@
 ﻿using System;
+using WitchesHat.Domain.Core;
 
-namespace WitchesHat.Domain
+namespace WitchesHat.Domain.Character
 {
-    public class Character
+    public class Character : AggregateBase
     {
         private Character(Guid chracterId,
             string characterName)
