@@ -3,7 +3,7 @@
 ### Aggregates
 
 ### Proposed item grouping
-[CharacterProfile]
+**[CharacterProfile]**
 
 CharacterName |
 Class |
@@ -35,7 +35,7 @@ Charisma |
 CharismaMod |
 
 
-[Skills]
+**[Skills]**
 
 // Should these be KVPs? k: int skillName, v: bool proficient
 
@@ -61,7 +61,7 @@ Survival |
 passivePerception..? 
 
 
-[SavingThrows]
+**[SavingThrows]**
 
 // Should these be KVPs? k: int savingThrow, v: bool proficient
 
