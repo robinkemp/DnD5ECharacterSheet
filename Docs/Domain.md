@@ -19,7 +19,7 @@ Hair |
 ProfilePicture |
 
 
-[Attributes]
+**[Attributes]**
 
 Strength |
 StrengthMod |
