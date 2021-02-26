@@ -105,4 +105,3 @@ SpellCastingAbility | SpellSaveDc | SpellAttackBonus | LevelOneSpellCount | Leve
 
 Name | IsCantrip | EffectDescription | SpellLevel | DamageDie
 
-wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
