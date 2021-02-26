@@ -5,29 +5,19 @@
 ### Proposed item grouping
 [CharacterProfile]
 
-CharacterName
-
-Class
-
-Background
-
-Race
-
-Alignment
-
-Age
-
-Height
-
-Weight
-
-Eyes
-
-Skin
-
-Hair
-
-ProfilePicture
+CharacterName |
+-------------
+Class |
+Background |
+Race |
+Alignment |
+Age |
+Height |
+Weight |
+Eyes |
+Skin |
+Hair |
+ProfilePicture |
 
 
 [Attributes]
