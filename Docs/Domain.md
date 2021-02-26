@@ -18,10 +18,30 @@ Skin |
 Hair |
 ProfilePicture |
 
+**[CharacterDetails]**
+
+Backgrouhnd | PersonalityTraits | Ideals | Bonds | Flaws | Languages | ExtraProficiencies
+
+**[AlliesAndOrgs]**
+
+AllyName | Relationship | BackgroundInformation
+OrganisationName | Relationship | BackgroundInformation
+
+**[TraitsAndFeatures]**
+
+Trait/FeatureName | Description | Passive/Active?
+
 **[CombatStats]**
 
 ArmourClass | Initiative | Speed | HitPointsMax | HitPointsCurrent | TempHitPoints | HitDiceTotal | HitDiceCurrent | DeathSaves
 
+**[EquippedWeapons]**
+
+WeaponName | WeaponType | AttackBonus | DamageDice | DamageType | Ammunition
+
+**[Inventory]**
+
+CopperPieces | SilverPieces | ElectrumPieces | GoldPieces | PlatinumPieces | EquipmentName | AmmountHeld
 
 **[Attributes]**
 
