@@ -1,5 +1,6 @@
 import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
+import { authGuard } from "../auth/authGuard";
 import Home from "../views/Home.vue";
 import HelloWill from "../views/HelloWill.vue";
 
@@ -32,7 +33,8 @@ const routes: Array<RouteConfig> = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "about" */ "../player/player-container.vue")
+      import(/* webpackChunkName: "about" */ "../player/player-container.vue"),
+    beforeEnter: (to, from, next) => authGuard(to, from, next)
   }
 ];
 
