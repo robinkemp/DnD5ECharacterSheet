@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
 import Home from "../views/Home.vue";
 import HelloWill from "../views/HelloWill.vue";
+import CharacterSheet from "../CharacterSheet/character-sheet-container.vue"
 
 Vue.use(VueRouter);
 
@@ -33,6 +34,15 @@ const routes: Array<RouteConfig> = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../player/player-container.vue")
+  },
+  {
+    path: "/character-sheet",
+    name: "CharacterSheet",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../CharacterSheet/character-sheet-container.vue")
   }
 ];
 

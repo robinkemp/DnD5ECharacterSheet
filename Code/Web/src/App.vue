@@ -21,6 +21,8 @@
         <router-link to="about">About</router-link>
         <v-spacer></v-spacer>
         <router-link to="will">Spells</router-link>
+        <v-spacer></v-spacer>
+        <router-link to="character-sheet">New Character Sheet</router-link>
       </v-footer>
   </v-app>
 </template>
