@@ -1,5 +1,5 @@
 <template>
-    <v-container>
+  <v-container>
     <v-row class="text-center">
       <v-col cols="12">
         <v-img
@@ -17,7 +17,7 @@
     <v-row>
       <CharacterList />
     </v-row>
-    </v-container>
+  </v-container>
 </template>
 
 <script lang="ts">

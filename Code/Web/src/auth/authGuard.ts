@@ -1,31 +1,33 @@
-import { getInstance } from '../auth'
-import { NavigationGuard } from 'vue-router'
+import { getInstance } from "../auth";
+import { NavigationGuard } from "vue-router";
 
 export const authGuard: NavigationGuard = (to, from, next) => {
-  const authService = getInstance()
+  const authService = getInstance();
+
+  let unwatch = () => { return; };
 
   const fn = () => {
     // Unwatch loading
-    unwatch && unwatch()
-    
+    unwatch && unwatch();
+
     // If the user is authenticated, continue with the route
     if (authService.isAuthenticated) {
-      return next()
+      return next();
     }
 
     // Otherwise, log in
-    authService.loginWithRedirect({ appState: { targetUrl: to.fullPath } })
-  }
+    authService.loginWithRedirect({ appState: { targetUrl: to.fullPath } });
+  };
 
   // If loading has already finished, check our auth state using `fn()`
   if (!authService.loading) {
-    return fn()
+    return fn();
   }
 
   // Watch for the loading property to change before we check isAuthenticated
-  const unwatch = authService.$watch('loading', (loading: boolean) => {
+  unwatch = authService.$watch("loading", (loading: boolean) => {
     if (loading === false) {
-      return fn()
+      return fn();
     }
-  })
-}
+  });
+};
