@@ -1,4 +1,21 @@
 ### Bounded Contexts
+**[Player]**
+**[PlayerAggregate]**
+Id (Mongo autogen)
+Sub (Indexed, auth provider unique id)
+Nickname
+
+**[Campaign]**
+**[CampaignAggregate]**
+Id (Mongo autogen)
+Name
+PlayerList (PlayerAggregateIds)
+ActiveCharacters (CharacterIds)
+
+**[CampaignCharacterAggregate]**
+Id (Mongo autogen)
+CharacterId (Indexed)
+PlayerId (Indexed)
 
 ### Aggregates
 

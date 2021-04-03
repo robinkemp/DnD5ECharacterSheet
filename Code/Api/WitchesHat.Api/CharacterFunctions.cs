@@ -1,19 +1,19 @@
-using System;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Azure.WebJobs;
-using Microsoft.Azure.WebJobs.Extensions.Http;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using WitchesHat.Domain.Character;
 using WitchesHat.Data.Repository.Character;
+using Microsoft.Azure.WebJobs;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Azure.WebJobs.Extensions.Http;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using System;
 
 namespace WitchesHat.Api
 {
-    public class Player
+    public class CharacterFunctions
     {
-        public Player(ICharacterRepository characterRepository)
+        public CharacterFunctions(ICharacterRepository characterRepository)
         {
             _characterRepository = characterRepository;
         }

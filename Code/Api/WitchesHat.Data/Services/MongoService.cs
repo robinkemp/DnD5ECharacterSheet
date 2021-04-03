@@ -1,4 +1,6 @@
-﻿using MongoDB.Bson.Serialization.Conventions;
+﻿using MongoDB.Bson.Serialization;
+using MongoDB.Bson.Serialization.Conventions;
+using MongoDB.Bson.Serialization.IdGenerators;
 using MongoDB.Driver;
 
 namespace WitchesHat.Data.Services
@@ -18,9 +20,11 @@ namespace WitchesHat.Data.Services
         { 
             var conventionPack = new ConventionPack { 
                 new IgnoreExtraElementsConvention(true), 
-                new CamelCaseElementNameConvention() 
+                new CamelCaseElementNameConvention(),
+                new StringIdStoredAsObjectIdConvention()
             };
             ConventionRegistry.Register("EssentialConfig", conventionPack, type => true);
+
             return new MongoClient(_connectionString);
         }
 

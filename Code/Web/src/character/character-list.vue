@@ -12,7 +12,7 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
-import { CharacterListProvider } from "./CharacterListProvider";
+import { CharacterListProvider } from "@/character/CharacterListProvider";
 
 @Component({ components: {} })
 export default class CharacterList extends Vue {
