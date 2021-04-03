@@ -5,7 +5,7 @@ namespace WitchesHat.Domain.Character
 {
     public class Character : AggregateBase
     {
-        private Character(Guid chracterId,
+         private Character(Guid chracterId,
             string characterName)
         {
             CharacterId = chracterId;

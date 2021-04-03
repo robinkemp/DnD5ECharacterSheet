@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Reflection;
 using WitchesHat.Data.Repository.Character;
+using WitchesHat.Data.Repository.Player;
 using WitchesHat.Data.Services;
 
 [assembly: FunctionsStartup(typeof(WitchesHat.Api.Startup))]
@@ -29,6 +30,7 @@ namespace WitchesHat.Api
                 config["MongoPassword"]);});
 
             builder.Services.AddTransient<ICharacterRepository, CharacterRepository>();
+            builder.Services.AddTransient<IPlayerRepository, PlayerRepository>();
         }
     }
 }
